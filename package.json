@@ -1,0 +1,35 @@
+{
+	"name": "gulp-yuicompressor",
+	"version": "0.0.1",
+	"description": "Minify files with yuicompressor",
+	"license": "MIT",
+	"keywords": [
+		"yuicompressor",
+		"gulpplugin"
+	],
+	"author": {
+		"name": "anhulife",
+		"email": "anhulife@gmail.com"
+	},
+	"homepage": "https://github.com/anhulife/gulp-yuicompressor",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:anhulife/gulp-yuicompressor.git"
+	},
+	"scripts": {
+		"test": "mocha"
+	},
+	"files": [
+		"index.js"
+	],
+	"dependencies": {
+		"gulp-util": "^3.0.0",
+		"through2": "^0.5.1",
+		"yuicompressor": "^2.4.8"
+	},
+	"devDependencies": {
+		"vinyl": "~0.2.3",
+		"gulp": "^3.8.7",
+		"mocha": "*"
+	}
+}

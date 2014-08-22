@@ -1,7 +1,7 @@
 'use strict';
 var through = require('through2'),
 	gutil = require('gulp-util'),
-	compressor = require('yuicompressor');
+	compressor = require('./yuicompressor');
 
 module.exports = function (opt) {
 

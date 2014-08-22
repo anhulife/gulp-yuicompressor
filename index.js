@@ -23,7 +23,9 @@ module.exports = function (opt) {
 			//data  The compressed string, you write it out where you want it
 			//extra The stderr (warnings are printed here in case you want to echo them
 			if(err){
-				that.emit('error', new gutil.PluginError('gulp-yuicompressor', String(err)));
+				that.emit('error', new gutil.PluginError('gulp-yuicompressor', String(err), {
+					fileName: file.path
+				}));
 			}else{
 				file.contents = new Buffer(data);
 				that.push(file);

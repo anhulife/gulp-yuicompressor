@@ -1,7 +1,7 @@
 gulp-yuicompressor
 =============
 
-> Minify files with yuicompressor
+> ⚠️ This module is deprecated. please use gulp-uglify instead.
 
 ## Install
 
